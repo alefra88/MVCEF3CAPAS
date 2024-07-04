@@ -192,3 +192,4 @@ C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3CAPASWCF\MVCEF3CAPAS\MVCEF3Cap
 C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3CAPASWCF\MVCEF3CAPAS\MVCEF3Capas\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3CAPASWCF\MVCEF3CAPAS\MVCEF3Capas\Presentacion\obj\Debug\Presentacion.dll
 C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3CAPASWCF\MVCEF3CAPAS\MVCEF3Capas\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3CAPASWCF\MVCEF3CAPAS\MVCEF3Capas\Presentacion\bin\Business.dll.config
