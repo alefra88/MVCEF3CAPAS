@@ -1,0 +1,15 @@
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\bin\Debug\Data.dll.config
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\bin\Debug\Data.dll
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\bin\Debug\Data.pdb
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\bin\Debug\Entities.dll
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\bin\Debug\EntityFramework.dll
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\bin\Debug\Entities.pdb
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\bin\Debug\Entities.dll.config
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\bin\Debug\EntityFramework.xml
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\obj\Debug\Data.dll
+C:\Users\Tichs\Desktop\bootcamp-AEOG\CSHARP\MVCEF3Capas\Data\obj\Debug\Data.pdb

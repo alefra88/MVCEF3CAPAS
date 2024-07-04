@@ -1,0 +1,63 @@
+﻿
+@model IEnumerable<Entities.Alumnos>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Alumnos</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-default">
+                @Html.ActionLink("Agregar Alumno", "Create")
+            </button>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.nombre)</th>
+                            <th>@Html.DisplayNameFor(model => model.primerApellido)</th>
+                            <th>@Html.DisplayNameFor(model => model.segundoApellido)</th>
+                            <th>@Html.DisplayNameFor(model => model.correo)</th>
+                            <th>@Html.DisplayNameFor(model => model.telefono)</th>
+                            <th>@Html.DisplayNameFor(model => model.fechaNacimiento)</th>
+                            <th>@Html.DisplayNameFor(model => model.curp)</th>
+                            <th>@Html.DisplayNameFor(model => model.sueldoMensual)</th>
+                            <th>@Html.DisplayNameFor(model => model.Estados)</th>
+                            <th>@Html.DisplayNameFor(model => model.EstatusAlumnos)</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.nombre)</td>
+                                <td>@Html.DisplayFor(modelItem => item.primerApellido)</td>
+                                <td>@Html.DisplayFor(modelItem => item.segundoApellido)</td>
+                                <td>@Html.DisplayFor(modelItem => item.correo)</td>
+                                <td>@Html.DisplayFor(modelItem => item.telefono)</td>
+                                <td>@Html.DisplayFor(modelItem => item.fechaNacimiento)</td>
+                                <td>@Html.DisplayFor(modelItem => item.curp)</td>
+                                <td>@Html.DisplayFor(modelItem => item.sueldoMensual)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Estados.nombre)</td>
+                                <td>@Html.DisplayFor(modelItem => item.EstatusAlumnos.Nombre)</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <button class="btn btn-warning btn-group-justified btn-">@Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "text-white" })</button>
+                                        <button class="btn btn-success btn-group-justified">@Html.ActionLink("Details", "Details", new { id = item.id })</button>
+                                        <button class="btn btn-danger btn-group-justified">@Html.ActionLink("Delete", "Delete", new { id = item.id }, new { onclick = "return confirm('Are you sure you want to delete this item?');" })</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
