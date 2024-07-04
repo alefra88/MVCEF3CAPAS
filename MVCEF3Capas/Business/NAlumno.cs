@@ -6,21 +6,23 @@ using System.Threading.Tasks;
 using Entities;
 using Data;
 using System.Data.Entity;
+using Business.ServRefWCFAlumno;
 
 namespace Business
 {
     public class NAlumno
     {
         DBConnection _DBContext = new DBConnection();
+        WCFAlumnoClient _oWCFAlumnoClient = new WCFAlumnoClient();
         public List<Alumnos> Consultar()
         {
-            return  _DBContext.Alumnos.ToList();
-            
+            return _DBContext.Alumnos.ToList();
+
         }
 
         public Alumnos Consultar(int id)
         {
-            return _DBContext.Alumnos.Find(id);         
+            return _DBContext.Alumnos.Find(id);
         }
         public void Agregar(Alumnos alumno)
         {
@@ -34,12 +36,24 @@ namespace Business
         }
         public void Eliminar(int id)
         {
-           var oAlumno = _DBContext.Alumnos.Find(id);
+            var oAlumno = _DBContext.Alumnos.Find(id);
             if (oAlumno != null)
             {
                 _DBContext.Alumnos.Remove(oAlumno);
                 _DBContext.SaveChanges();
             }
         }
-    }  
+        public AportacionesIMSS CalcularIMSS(int id)
+        {
+            AportacionesIMSS oAportacionesIMSS = _oWCFAlumnoClient.CalcularIMSS(id);
+            return oAportacionesIMSS;
+        }
+
+        public ItemTablaISR CalcularISR(int id)
+        {
+
+            ItemTablaISR oItemTablaISR = _oWCFAlumnoClient.CalcularISR(id);
+            return oItemTablaISR;
+        }
+    }
 }
