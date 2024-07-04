@@ -174,6 +174,8 @@
     <Content Include="Views\Alumnos\Delete.cshtml" />
     <Content Include="Views\Alumnos\Create.cshtml" />
     <Content Include="Views\Alumnos\Edit.cshtml" />
+    <Content Include="Views\Alumnos\_AportacionesIMSS.cshtml" />
+    <Content Include="Views\Alumnos\_TablaISR.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Business;
+using Business.ServRefWCFAlumno;
 using Entities;
 
 namespace Presentacion.Controllers
@@ -110,6 +111,17 @@ namespace Presentacion.Controllers
             {
                 return View();
             }
+        }
+        public ActionResult _AportacionesIMSS(int id)
+        {
+            AportacionesIMSS oAportacionesIMSS = _oNAlumno.CalcularIMSS(id);
+            return PartialView(oAportacionesIMSS);
+        }
+
+        public ActionResult _TablaISR(int id)
+        {
+            ItemTablaISR oItemTablaISR = _oNAlumno.CalcularISR(id);
+            return PartialView(oItemTablaISR);
         }
     }
 }
